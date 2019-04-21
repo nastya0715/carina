@@ -1,4 +1,4 @@
-package carina;
+package com.qaprosoft.carina.api;
 
 import com.qaprosoft.carina.core.foundation.api.AbstractApiMethodV2;
 import com.qaprosoft.carina.core.foundation.utils.Configuration;

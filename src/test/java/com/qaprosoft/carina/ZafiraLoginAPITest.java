@@ -2,12 +2,11 @@ package com.qaprosoft.carina;
 
 import org.testng.annotations.Test;
 
+import com.qaprosoft.carina.api.ResetAPIMethod;
+import com.qaprosoft.carina.api.SignInMethod;
 import com.qaprosoft.carina.core.foundation.AbstractTest;
 import com.qaprosoft.carina.core.foundation.api.http.HttpResponseStatusType;
 import com.qaprosoft.carina.core.foundation.utils.ownership.MethodOwner;
-
-import carina.ResetAPIMethod;
-import carina.SignInMethod;
 
 
 public class ZafiraLoginAPITest extends AbstractTest {
