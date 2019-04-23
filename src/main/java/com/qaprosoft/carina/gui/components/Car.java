@@ -7,16 +7,16 @@ import org.openqa.selenium.support.FindBy;
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
 import com.qaprosoft.carina.core.gui.AbstractUIObject;
 
-public class Tablet extends AbstractUIObject{
-	@FindBy(xpath="//a[@class='product__title-link']")
-	private ExtendedWebElement tabletTitle;
+public class Car extends AbstractUIObject{
 	
-	public Tablet(WebDriver driver, SearchContext searchContext) {
+	@FindBy(xpath="//a/strong")
+	private ExtendedWebElement carTitle;
+
+	public Car(WebDriver driver, SearchContext searchContext) {
 		super(driver, searchContext);
 	}
-	
-	public String readTabletTitle () {
-		return tabletTitle.getElement().getText();
-	}
 
+	public String readCarTitle () {
+		return carTitle.getElement().getText();
+	}
 }
