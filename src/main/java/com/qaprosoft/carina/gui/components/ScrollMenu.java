@@ -8,7 +8,7 @@ import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebEleme
 import com.qaprosoft.carina.core.gui.AbstractUIObject;
 import com.qaprosoft.carina.gui.pages.TabletsPage;
 
-public class FooterMenu extends AbstractUIObject {
+public class ScrollMenu extends AbstractUIObject {
 
 	@FindBy(linkText="Мобильные телефоны")
 	private ExtendedWebElement mobilePhoneLink;
@@ -47,7 +47,7 @@ public class FooterMenu extends AbstractUIObject {
 	private ExtendedWebElement wristWatchLink;
 	
 
-	public FooterMenu(WebDriver driver, SearchContext searchContext) {
+	public ScrollMenu(WebDriver driver, SearchContext searchContext) {
 		super(driver, searchContext);
 	}
 	

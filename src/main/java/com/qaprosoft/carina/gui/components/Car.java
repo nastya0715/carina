@@ -19,4 +19,6 @@ public class Car extends AbstractUIObject{
 	public String readCarTitle () {
 		return carTitle.getElement().getText();
 	}
+	
+	
 }

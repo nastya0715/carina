@@ -8,7 +8,7 @@ import com.qaprosoft.carina.core.gui.AbstractPage;
 
 public class RatePage extends AbstractPage{
 	
-	@FindBy(xpath="//b[text()='1 USD']//..//..//..//td//p[@class='value fall']/descendant::b")
+	@FindBy(xpath="//p[@class='title to-be-removed']/b[2]")
 	private ExtendedWebElement rateNBRB;
 
 	public RatePage(WebDriver driver) {

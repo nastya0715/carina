@@ -14,11 +14,8 @@ public class TabletsPage extends AbstractPage{
 	@FindBy(xpath="//input[@class='fast-search__input']")
 	private ExtendedWebElement searchField;
 	
-	@FindBy(xpath="//div[@class='result__wrapper']")
+	@FindBy(xpath="//div[@class='search__content-wrapper']/ul/li[@class]")  
 	private List<Tablet> tablets;
-	
-	//@FindBy(xpath="")
-	//private ExtendedWebElement ;
 	
 	public TabletsPage(WebDriver driver) {
 		super(driver);

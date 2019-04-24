@@ -13,7 +13,7 @@ public class BankPage extends AbstractPage {
 
 	public BankPage(WebDriver driver) {
 		super(driver);
-		setPageAbsoluteURL("https://nbrb.by/statistics/Rates/RatesDaily.asp");
+		setPageAbsoluteURL("https://nbrb.by/statistics/rates/ratesdaily.asp");
 	}
 	
 	public String getTrueRateNBRB() {

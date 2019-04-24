@@ -4,13 +4,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
 import com.qaprosoft.carina.core.gui.AbstractPage;
-import com.qaprosoft.carina.gui.components.FooterMenu;
+import com.qaprosoft.carina.gui.components.ScrollMenu;
 import com.qaprosoft.carina.gui.components.LogInMenu;
 import com.qaprosoft.carina.gui.components.YellowMenu;
 
 public class HomePage extends AbstractPage {
 	@FindBy(xpath="//div[@class='project-navigation__flex']")
-	private FooterMenu footerMenu;
+	private ScrollMenu scrollMenu;
 	
 	@FindBy(xpath="//div[@id='userbar']")
 	private LogInMenu logInMenu;	
@@ -22,8 +22,8 @@ public class HomePage extends AbstractPage {
 		super(driver);
 	}
 	
-	public FooterMenu getFooterMenu() {
-		return footerMenu;
+	public ScrollMenu getScrollMenu() {
+		return scrollMenu;
 	}
 	
 	public LogInMenu getLogInMenu() {
